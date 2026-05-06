@@ -1,0 +1,235 @@
+@using Sandbox
+@using Sandbox.UI
+@using System
+@inherits PanelComponent
+
+<root>
+    <div class="hints-container">
+        <div class="hint-item">
+            <Image Texture="@Input.GetGlyph( "attack1", InputGlyphSize.Medium, true )" />
+            <label text="Slingshot" />
+        </div>
+
+        <div class="hint-item">
+            <Image Texture="@Input.GetGlyph( "reload", InputGlyphSize.Medium, true )" />
+            <label text="Restart" />
+        </div>
+
+        <div class="hint-item">
+           <Image Texture="@Input.GetGlyph( "score", InputGlyphSize.Medium, true )" />
+            <label text="Leaderboard" />
+        </div>
+    </div>
+
+
+   @if (Player != null && Player.IsDragging && Player.MainCamera != null)
+    {
+        <div class="slingshot-line" 
+             style="width: @(LineWidth)px; left: @(LineX)%; top: @(LineY)%; transform: rotate(@(LineAngle)deg); background-color: @(PowerColorHex);">
+        </div>
+    }
+
+    <div class="power-container">
+        <div class="text-row">
+            <label class="power-title">Power</label>
+            <label class="power-percent">@(MathF.Round(CurrentPct * 100f))%</label>
+        </div>
+        
+        <div class="bar-bg">
+    <div class="bar-fill" style="width: @(CurrentPct * 100f)%;"></div>
+    
+    @if (LastPct > 0)
+    {
+        <div class="marker" style="left: @(LastPct * 100f)%; color: @(MarkerColorHex);">
+            <span class="marker-arrow">▲</span>
+            <span class="marker-label">@(MathF.Round(LastPct * 100f))%</span>
+        </div>
+    }
+</div>
+    </div>
+</root>
+
+@code {
+    [Property, Group("Referências")] public SlingshotController Player { get; set; }
+    [Property, Group("Visuals")] public Vector3 CenterOffset { get; set; } = Vector3.Zero; 
+
+    private float CurrentPct => Player?.CurrentPullPercentage ?? 0f;
+    private float LastPct => Player?.LastPullPercentage ?? 0f;
+    private string PowerColorHex => GetHex(Color.Lerp(new Color(0.6f, 0.9f, 0.2f), new Color(1f, 0.3f, 0.2f), CurrentPct));
+    private string MarkerColorHex => GetHex(Color.Lerp(new Color(0.6f, 0.9f, 0.2f), new Color(1f, 0.3f, 0.2f), LastPct));
+    private string GetHex(Color c) => $"#{((int)(c.r * 255)):X2}{((int)(c.g * 255)):X2}{((int)(c.b * 255)):X2}";
+
+    private float LineWidth { get; set; }
+    private float LineX { get; set; }
+    private float LineY { get; set; }
+    private float LineAngle { get; set; }
+
+    protected override void OnStart()
+    {
+        if (Player == null) Player = Scene.GetAllComponents<SlingshotController>().FirstOrDefault();
+    }
+
+    protected override void OnUpdate()
+    {
+        if (Player == null || Player.MainCamera == null) return;
+
+        if (Player.IsDragging)
+        {
+            // 1. Posição 3D do boneco convertida para pixels reais da tela
+            Vector3 center3D = Player.Transform.Position + CenterOffset;
+            Vector2 playerScreenPos = Player.MainCamera.PointToScreenPixels(center3D);
+            
+            // 2. Posição do mouse
+            Vector2 mouseScreenPos = Mouse.Position;
+
+            // 3. MACETE DE OURO: Converte o X e Y do boneco para Porcentagem (0 a 100%)
+            // Isso blinda a UI contra qualquer bug de escala do painel filho.
+            LineX = (playerScreenPos.x / Screen.Width) * 100f;
+            LineY = (playerScreenPos.y / Screen.Height) * 100f;
+
+            // 4. Calcula tamanho e ângulo puros
+            Vector2 diff = mouseScreenPos - playerScreenPos;
+
+            if (diff.Length > Player.MaxPullDistance) 
+            {
+                diff = diff.Normal * Player.MaxPullDistance;
+            }
+
+            LineWidth = diff.Length;
+            LineAngle = MathF.Atan2(diff.y, diff.x) * 180f / MathF.PI;
+        }
+    }
+
+    protected override int BuildHash()
+    {
+        return HashCode.Combine(CurrentPct, LastPct, Player?.IsDragging, LineWidth, LineX, LineY, LineAngle);
+    }
+}
+
+<style>
+    root {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+    }
+
+    .slingshot-line {
+        position: absolute;
+        height: 4px;
+        margin-top: -2px; /* Centraliza a espessura da linha certinho */
+        transform-origin: 0% 50%;
+        z-index: 9999; /* Força pra frente de tudo */
+    }
+
+.power-container {
+    /* Posicionamento fixo na tela */
+    position: absolute;
+    bottom: 40px;  /* Distância da borda inferior */
+    left: 40px;    /* Distância da borda esquerda */
+    
+    /* Tamanho reduzido */
+    width: 320px; 
+    
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    font-family: Poppins, sans-serif;
+    pointer-events: none; /* Garante que a barra não bloqueie cliques no jogo */
+}
+
+.text-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.power-title, .power-percent {
+    color: white;
+    font-size: 22px; /* Fonte levemente menor para acompanhar a barra */
+    font-weight: 800;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.bar-bg {
+    width: 100%;
+    height: 16px; /* Barra mais fina/elegante */
+    background-color: rgba(26, 26, 26, 0.9);
+    border-radius: 8px;
+    position: relative;
+    overflow: visible;
+}
+
+.bar-fill {
+    height: 100%;
+    border-radius: 8px;
+    background: linear-gradient(to right, #4CAF50, #FFEB3B, #F44336);
+    /* background-size deve bater com o width do container (320px) */
+    background-size: 320px 100%;
+    transition: width 0.1s ease;
+}
+
+.marker {
+    position: absolute;
+    top: 100%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.marker-arrow {
+    font-size: 9px;
+    line-height: 9px;
+}
+
+.marker-label {
+    font-size: 11px;
+    font-weight: 900;
+    margin-top: -1px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+    .hints-container {
+        position: absolute;
+        bottom: 50px;
+        left: 50%;
+        transform: translateX(-50%);
+        flex-direction: row;
+        gap: 20px;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 10px 20px;
+        border-radius: 8px;
+    }
+
+    .hints-container {
+        position: absolute;
+        bottom: 50px;
+        left: 50%;
+        transform: translateX(-50%);
+        flex-direction: row;
+        gap: 20px;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 10px 20px;
+        border-radius: 8px;
+    }
+
+    .hint-item {
+        flex-direction: row;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .hint-item image {
+        height: 32px;
+        width: 32px;
+    }
+
+    .hint-item label {
+        color: white;
+        font-family: Poppins;
+        font-size: 18px;
+    }
+
+</style>

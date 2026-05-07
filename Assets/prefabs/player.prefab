@@ -55,7 +55,7 @@
         },
         "CurrentState": "Caindo",
         "GroundCheckDistance": 25,
-        "GroundCheckOffsets": "-20,20",
+        "GroundCheckOffsets": "-30,30",
         "LaunchForceMultiplier": 15,
         "MainCamera": {
           "_type": "component",

@@ -30,12 +30,14 @@ public sealed class SlingshotController : Component, Component.ICollisionListene
 
     private Vector2 _baseSpriteSize;
 
+    private LiderBoard _lb;
     protected override void OnStart() 
     {
         if(IsProxy) return;
 
         if ( Body == null ) Body = Components.Get<Rigidbody>();
         if ( PlayerSprite != null ) _baseSpriteSize = PlayerSprite.Size;
+        _lb = Scene.GetAllComponents<LiderBoard>().FirstOrDefault();
     }
 
     protected override void OnUpdate() 
@@ -46,6 +48,9 @@ public sealed class SlingshotController : Component, Component.ICollisionListene
         HandleInput();
         UpdateUIValues();
         ApplyJuice();
+
+
+
     }
 
     protected override void OnFixedUpdate()
@@ -111,6 +116,12 @@ public sealed class SlingshotController : Component, Component.ICollisionListene
 
         CurrentState = PlayerState.Caindo;
         Body.Velocity = launchDirection * appliedForce;
+        _lb.contador();
+        if(_lb.started == false )
+        {
+            _lb.startimer();
+        }
+        
     }
 
     private void CheckGround(float offset)

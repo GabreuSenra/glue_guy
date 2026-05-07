@@ -1,35 +1,39 @@
 using System;
 using Sandbox;
+
 public sealed class LiderBoard : Component
-{
-    [Property] public int movecont = 0; 
-    [Property] public float elapsedtime = 0; 
-    [Property] public bool started = false; 
+{   
+    public static LiderBoard Instance;
 
-    public void contador()
-    {
-        movecont ++;
-        
-    }
+    [Property] public int MoveCount = 0; 
+    [Property] public float ElapsedTime = 0; 
+    [Property] public bool Started = false; 
 
-    public void startimer()
-    {
-        started = true;
-
-    }
-
-	protected override void OnUpdate()
+    protected override void OnStart()
 	{
-		if (started == true )
+        Instance = this;
+    }
+    protected override void OnUpdate()
+	{
+		if (Started == true )
         {
-            elapsedtime += Time.Delta;
-
+            ElapsedTime += Time.Delta;
         }
-
 	}
-
-
+    public void AddMoveCount()
+    {
+        MoveCount ++;
+    }
+    public void StarTimer()
+    {
+        Started = true;
+    }
+    public int GetMoveCount()
+    {
+        return MoveCount;
+    }
+    public float GetElapsedTime()
+    {
+        return ElapsedTime;
+    }
 }
-
-
-//TESTANDO

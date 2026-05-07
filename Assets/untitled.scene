@@ -581,6 +581,71 @@
         }
       ],
       "Children": []
+    },
+    {
+      "__guid": "c978757c-9d56-41b1-bce3-be017ee692dd",
+      "__version": 2,
+      "Flags": 0,
+      "Name": "Leaderboard",
+      "Position": "24.0386257,-1802.81555,43.8896217",
+      "Rotation": "0,0,0,1",
+      "Scale": "1,1,1",
+      "Tags": "",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkFlags": 0,
+      "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
+      "OwnerTransfer": 1,
+      "Components": [
+        {
+          "__type": "LiderBoard",
+          "__guid": "6e8f9508-b040-43d9-89b5-7661ffe725b9",
+          "__enabled": true,
+          "Flags": 0,
+          "ElapsedTime": 0,
+          "MoveCount": 0,
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "Started": false
+        }
+      ],
+      "Children": []
+    },
+    {
+      "__guid": "056ed98b-899e-4ab8-ac4c-f2c0ce777bb3",
+      "__version": 2,
+      "Flags": 0,
+      "Name": "EndLine",
+      "Position": "24.0386257,-1802.81555,43.8896217",
+      "Rotation": "0,0,0,1",
+      "Scale": "1,1,1",
+      "Tags": "",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkFlags": 0,
+      "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
+      "OwnerTransfer": 1,
+      "Components": [
+        {
+          "__type": "EndLine",
+          "__guid": "a1e4e2e7-ca63-43e5-bd02-014d3b5eaed8",
+          "__enabled": true,
+          "Flags": 0,
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null
+        }
+      ],
+      "Children": []
     }
   ],
   "SceneProperties": {
@@ -603,17 +668,17 @@
       "CustomBounds": false
     },
     "GameObjectSystems": {
+      "Sandbox.Clutter.ClutterGridSystem": {
+        "Storage": {
+          "$blob": "b35593ae-19bd-4924-8455-b9b24d493622"
+        }
+      },
       "Sandbox.MovieMaker.MovieRecorderSystem": {
         "DisableClientRecording": false
       },
       "Sandbox.SelectionSetsSystem": {
         "Data": {
           "SelectionSets": []
-        }
-      },
-      "Sandbox.Clutter.ClutterGridSystem": {
-        "Storage": {
-          "$blob": "b35593ae-19bd-4924-8455-b9b24d493622"
         }
       }
     }

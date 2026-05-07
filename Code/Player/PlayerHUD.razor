@@ -189,47 +189,53 @@
     margin-top: -1px;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
 }
+    /* --- HINTS CONTAINER (CENTRALIZADO E MELHORADO) --- */
     .hints-container {
         position: absolute;
         bottom: 50px;
         left: 50%;
         transform: translateX(-50%);
+        display: flex; 
         flex-direction: row;
-        gap: 20px;
+        gap: 40px; /* Aumentei o espaço entre cada dica (antes era 20px) */
         align-items: center;
-        background-color: rgba(0, 0, 0, 0.5);
-        padding: 10px 20px;
-        border-radius: 8px;
-    }
-
-    .hints-container {
-        position: absolute;
-        bottom: 50px;
-        left: 50%;
-        transform: translateX(-50%);
-        flex-direction: row;
-        gap: 20px;
-        align-items: center;
-        background-color: rgba(0, 0, 0, 0.5);
-        padding: 10px 20px;
-        border-radius: 8px;
+        
+        /* Visual moderno com fundo de vidro */
+        background-color: rgba(0, 0, 0, 0.6); 
+        backdrop-filter: blur(5px); 
+        
+        /* Container mais gordinho e elegante */
+        padding: 16px 32px; 
+        border-radius: 12px; 
+        border: 1px solid rgba(255, 255, 255, 0.1); 
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4); 
     }
 
     .hint-item {
+        display: flex;
         flex-direction: row;
         align-items: center;
-        gap: 8px;
+        gap: 12px; /* Mais espaço entre o botão e o texto */
     }
 
     .hint-item image {
-        height: 32px;
-        width: 32px;
+        /* Aumentei os ícones (antes era 32px) */
+        height: 44px; 
+        width: 44px;
+        filter: drop-shadow(0px 2px 4px rgba(0,0,0,0.5)); /* Sombrinha no ícone */
     }
 
     .hint-item label {
         color: white;
-        font-family: Poppins;
-        font-size: 18px;
+        font-family: Poppins, sans-serif;
+        
+        /* Fonte maior, mais grossa e maiúscula */
+        font-size: 22px; 
+        font-weight: 700; 
+        text-transform: uppercase; 
+        letter-spacing: 1px;
+        
+        /* Sombra forte para não sumir contra o cenário claro */
+        text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.8); 
     }
-
 </style>

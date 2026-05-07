@@ -1,19 +1,43 @@
 @using Sandbox;
 @using Sandbox.UI;
+@using System;
 @inherits PanelComponent
-@namespace Sandbox
 
 <root>
-	<div class="title">@MyStringValue</div>
+    <div class="leaderboard-card">
+        <div class="stat-row">
+            <label class="title">MOVIMENTOS: </label>
+            <span class="value">@GetMoves()</span>
+        </div>
+        
+        <div class="divider"></div>
+        
+        <div class="stat-row">
+            <label class="title">TEMPO: </label>
+            <span class="value">@FormatTime()</span>
+        </div>
+    </div>
 </root>
 
-@code
-{
+@code {
+    [Property] public LiderBoard MeuLiderBoard { get; set; }
 
-	[Property, TextArea] public string MyStringValue { get; set; } = "Hello World!";
+    string GetMoves()
+    {
+        if (MeuLiderBoard == null) return "0";
+        return MeuLiderBoard.movecont.ToString();
+    }
 
-	/// <summary>
-	/// the hash determines if the system should be rebuilt. If it changes, it will be rebuilt
-	/// </summary>
-	protected override int BuildHash() => System.HashCode.Combine( MyStringValue );
+    string FormatTime()
+    {
+        if (MeuLiderBoard == null) return "00:00";
+        var time = TimeSpan.FromSeconds(MeuLiderBoard.elapsedtime);
+        return $"{(int)time.TotalMinutes:00}:{time.Seconds:00}";
+    }
+
+    protected override int BuildHash()
+    {
+        if (MeuLiderBoard == null) return 0;
+        return System.HashCode.Combine( MeuLiderBoard.movecont, MeuLiderBoard.elapsedtime );
+    }
 }

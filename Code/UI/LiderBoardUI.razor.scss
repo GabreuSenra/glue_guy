@@ -7,14 +7,14 @@ root {
 
 .leaderboard-card {
     position: absolute;
-    bottom: 20px; 
-    right: 20px;
+    bottom: 40px; 
+    right: 40px;
     
     display: flex;
     flex-direction: column;
     gap: 4px; 
     
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.6);
     backdrop-filter: blur(4px);
     
     border-radius: 6px;

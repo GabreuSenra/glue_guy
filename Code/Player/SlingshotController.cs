@@ -107,7 +107,16 @@ public sealed class SlingshotController : Component, Component.ICollisionListene
         if ( dragVector.Length > MaxPullDistance ) dragVector = dragVector.Normal * MaxPullDistance;
 
         Vector3 launchDirection = new Vector3( dragVector.x, 0, -dragVector.y ).Normal;
-        float appliedForce = dragVector.Length * LaunchForceMultiplier;
+
+
+        // 1. Pegamos a porcentagem do puxão (vai de 0.0 até 1.0)
+        float pullFraction = dragVector.Length / MaxPullDistance;
+        
+        // 2. Calculamos qual seria a força máxima absoluta
+        float maxForce = MaxPullDistance * LaunchForceMultiplier;
+        
+        // 3. Aplicamos a Raiz Quadrada na porcentagem para "enganar" a curva da gravidade
+        float appliedForce = MathF.Sqrt(pullFraction) * maxForce;
 
         CurrentState = PlayerState.Caindo;
         Body.Velocity = launchDirection * appliedForce;

@@ -56,7 +56,7 @@
         "CurrentState": "Caindo",
         "GroundCheckDistance": 25,
         "GroundCheckOffsets": "-30,30",
-        "LaunchForceMultiplier": 15,
+        "LaunchForceMultiplier": 17,
         "MainCamera": {
           "_type": "component",
           "component_id": "ccfec215-0b0f-40c2-9b2c-8e6116e4d172",
@@ -194,6 +194,19 @@
               "go": "31205db1-9ffc-4dfd-94b4-aec4df586333",
               "component_type": "SlingshotController"
             }
+          },
+          {
+            "__type": "Sandbox.UI.LiderBoardUI",
+            "__guid": "36222a85-0684-4d75-bb7d-8060293acb56",
+            "__enabled": true,
+            "Flags": 0,
+            "MeuLiderBoard": null,
+            "OnComponentDestroy": null,
+            "OnComponentDisabled": null,
+            "OnComponentEnabled": null,
+            "OnComponentFixedUpdate": null,
+            "OnComponentStart": null,
+            "OnComponentUpdate": null
           }
         ],
         "Children": []
@@ -334,7 +347,7 @@
             "FlipHorizontal": false,
             "FlipVertical": false,
             "FogStrength": 1,
-            "IsSorted": true,
+            "IsSorted": false,
             "Lighting": false,
             "OnAnimationEnd": null,
             "OnAnimationStart": null,

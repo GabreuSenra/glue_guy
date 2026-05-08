@@ -56,7 +56,7 @@
         "CurrentState": "Caindo",
         "GroundCheckDistance": 25,
         "GroundCheckOffsets": "-30,30",
-        "LaunchForceMultiplier": 17,
+        "LaunchForceMultiplier": 11,
         "MainCamera": {
           "_type": "component",
           "component_id": "ccfec215-0b0f-40c2-9b2c-8e6116e4d172",
@@ -115,7 +115,7 @@
         "EnableImpactDamage": false,
         "EnhancedCcd": false,
         "Gravity": true,
-        "GravityScale": 9.8,
+        "GravityScale": 5,
         "ImpactDamage": 0,
         "LinearDamping": 0,
         "Locking": {

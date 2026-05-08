@@ -334,7 +334,7 @@
             "FlipHorizontal": false,
             "FlipVertical": false,
             "FogStrength": 1,
-            "IsSorted": false,
+            "IsSorted": true,
             "Lighting": false,
             "OnAnimationEnd": null,
             "OnAnimationStart": null,

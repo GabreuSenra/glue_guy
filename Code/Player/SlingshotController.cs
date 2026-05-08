@@ -135,12 +135,8 @@ public sealed class SlingshotController : Component, Component.ICollisionListene
                 CurrentState = PlayerState.inGround;
             }
         }
-        else if ( CurrentState == PlayerState.inGround )
-        {
-            CurrentState = PlayerState.Caindo;
-        }
 
-        //DebugOverlay.Trace( tr, 5f ); 
+        //DebugOverlay.Trace( tr, GroundCheckDistance ); 
     }
 
     private void CheckWall()

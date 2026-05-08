@@ -49,7 +49,7 @@
       "Name": "Cube",
       "Position": "0,0,-239.928848",
       "Rotation": "0,0,0,1",
-      "Scale": "69.8747101,5,9.75246334",
+      "Scale": "1000,5,9.75246334",
       "Tags": "",
       "Enabled": true,
       "NetworkMode": 2,
@@ -61,7 +61,7 @@
         {
           "__type": "Sandbox.ModelRenderer",
           "__guid": "1eb36e9d-c9d5-4595-98bc-2a11648752de",
-          "__enabled": true,
+          "__enabled": false,
           "Flags": 0,
           "BodyGroups": 18446744073709551615,
           "CreateAttachments": false,
@@ -115,6 +115,78 @@
       "Children": []
     },
     {
+      "__guid": "fe8045cb-c79c-4d50-9ab6-4a440a71f65b",
+      "__version": 2,
+      "Flags": 0,
+      "Name": "BACKWALL",
+      "Position": "0,214.431305,17222.957",
+      "Rotation": "0,0,0,1",
+      "Scale": "1000,5,1000",
+      "Tags": "",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkFlags": 0,
+      "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
+      "OwnerTransfer": 1,
+      "Components": [
+        {
+          "__type": "Sandbox.ModelRenderer",
+          "__guid": "87fc4ffc-540c-482f-8f3a-425991a15aa0",
+          "__enabled": true,
+          "Flags": 0,
+          "BodyGroups": 18446744073709551615,
+          "CreateAttachments": false,
+          "LodOverride": null,
+          "MaterialGroup": null,
+          "MaterialOverride": null,
+          "Materials": null,
+          "Model": "models/dev/box.vmdl",
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "RenderOptions": {
+            "GameLayer": true,
+            "OverlayLayer": false,
+            "BloomLayer": false,
+            "AfterUILayer": false
+          },
+          "RenderType": "On",
+          "Tint": "1,1,1,1"
+        },
+        {
+          "__type": "Sandbox.BoxCollider",
+          "__guid": "56ff0d10-01f7-4d8a-b669-69c17344a7d3",
+          "__enabled": true,
+          "Flags": 0,
+          "Center": "0,0,0",
+          "ColliderFlags": 0,
+          "Elasticity": null,
+          "Friction": null,
+          "IsTrigger": false,
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "OnObjectTriggerEnter": null,
+          "OnObjectTriggerExit": null,
+          "OnTriggerEnter": null,
+          "OnTriggerExit": null,
+          "RollingResistance": null,
+          "Scale": "50,50,50",
+          "Static": false,
+          "Surface": null,
+          "SurfaceVelocity": "0,0,0"
+        }
+      ],
+      "Children": []
+    },
+    {
       "__guid": "7cb2d659-72b7-4041-ac0e-a674cea4ea34",
       "__version": 2,
       "Flags": 0,
@@ -123,7 +195,7 @@
       "Rotation": "0,0,0,1",
       "Scale": "69.8747101,5,7.56999445",
       "Tags": "",
-      "Enabled": true,
+      "Enabled": false,
       "NetworkMode": 2,
       "NetworkFlags": 0,
       "NetworkOrphaned": 0,
@@ -195,7 +267,7 @@
       "Rotation": "0,0,0,1",
       "Scale": "1.5026052,5,0.934882998",
       "Tags": "",
-      "Enabled": true,
+      "Enabled": false,
       "NetworkMode": 2,
       "NetworkFlags": 0,
       "NetworkOrphaned": 0,
@@ -267,7 +339,7 @@
       "Rotation": "0,0,0,1",
       "Scale": "69.8747101,5,7.56999445",
       "Tags": "",
-      "Enabled": true,
+      "Enabled": false,
       "NetworkMode": 2,
       "NetworkFlags": 0,
       "NetworkOrphaned": 0,
@@ -339,7 +411,7 @@
       "Rotation": "0,0,0,1",
       "Scale": "69.8747101,5,7.56999445",
       "Tags": "",
-      "Enabled": true,
+      "Enabled": false,
       "NetworkMode": 2,
       "NetworkFlags": 0,
       "NetworkOrphaned": 0,
@@ -411,7 +483,7 @@
       "Rotation": "0,0,0,1",
       "Scale": "7.17024946,9.33124447,21.6473732",
       "Tags": "",
-      "Enabled": true,
+      "Enabled": false,
       "NetworkMode": 2,
       "NetworkFlags": 0,
       "NetworkOrphaned": 0,
@@ -554,8 +626,8 @@
       "__guid": "94108dbc-1212-4dc8-8b3d-391ee52d6557",
       "__version": 2,
       "Flags": 0,
-      "Name": "Object",
-      "Position": "0,0,125.782967",
+      "Name": "Spawn",
+      "Position": "-445.556488,41.5568237,183.901657",
       "Rotation": "0,0,0,1",
       "Scale": "1,1,1",
       "Tags": "",
@@ -646,6 +718,426 @@
         }
       ],
       "Children": []
+    },
+    {
+      "__guid": "a4064c99-c7f3-4d5b-878d-fa2051b487b6",
+      "__version": 2,
+      "Flags": 0,
+      "Name": "Sprites",
+      "Position": "0,0,0",
+      "Rotation": "0,0,0,1",
+      "Scale": "1,1,1",
+      "Tags": "",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkFlags": 0,
+      "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
+      "OwnerTransfer": 1,
+      "Components": [],
+      "Children": [
+        {
+          "__guid": "a98524e1-1ca8-40ac-ac01-62ef98508eee",
+          "__version": 2,
+          "__Prefab": "tiles/minor.prefab",
+          "__PrefabInstancePatch": {
+            "AddedObjects": [],
+            "RemovedObjects": [],
+            "PropertyOverrides": [
+              {
+                "Target": {
+                  "Type": "GameObject",
+                  "IdValue": "9ef17520-5e1b-412c-99bb-77a35424538c"
+                },
+                "Property": "Position",
+                "Value": "-439.177429,0,367.007324"
+              }
+            ],
+            "MovedObjects": []
+          },
+          "__PrefabIdToInstanceId": {
+            "9ef17520-5e1b-412c-99bb-77a35424538c": "a98524e1-1ca8-40ac-ac01-62ef98508eee",
+            "09e16494-5574-4694-b01a-4fe9c9dfcb72": "fe87ed41-c9ce-4280-8f91-0035e78921f6",
+            "002b184d-eb54-484a-a127-3b9221c74923": "bd9bdf34-37ce-46e7-9141-13f2fee30a9c"
+          }
+        },
+        {
+          "__guid": "44be510f-4df6-416d-9229-e00ebcb3492c",
+          "__version": 2,
+          "__Prefab": "tiles/square.prefab",
+          "__PrefabInstancePatch": {
+            "AddedObjects": [],
+            "RemovedObjects": [],
+            "PropertyOverrides": [
+              {
+                "Target": {
+                  "Type": "GameObject",
+                  "IdValue": "33feb317-64bd-44cc-9885-9f02f8e03324"
+                },
+                "Property": "Position",
+                "Value": "-447.173004,-25.342804,45.7439575"
+              },
+              {
+                "Target": {
+                  "Type": "Component",
+                  "IdValue": "391a93a4-e822-4ac8-b07b-9f4f760c4c8c"
+                },
+                "Property": "Sprite",
+                "Value": {
+                  "$compiler": "embed",
+                  "$source": null,
+                  "data": {
+                    "Animations": [
+                      {
+                        "Name": "Default",
+                        "FrameRate": 15,
+                        "Origin": "0.5,0.5",
+                        "LoopMode": "Loop",
+                        "Frames": [
+                          {
+                            "Texture": {
+                              "$compiler": "texture",
+                              "$source": "imagefile",
+                              "data": {
+                                "FilePath": "sprites/tiles/square.png",
+                                "MaxSize": 4096,
+                                "ConvertHeightToNormals": false,
+                                "NormalScale": 1,
+                                "Rotate": 0,
+                                "FlipVertical": false,
+                                "FlipHorizontal": false,
+                                "Cropping": {
+                                  "Left": 0,
+                                  "Top": 0,
+                                  "Right": 0,
+                                  "Bottom": 0
+                                },
+                                "Padding": {
+                                  "Left": 0,
+                                  "Top": 0,
+                                  "Right": 0,
+                                  "Bottom": 0
+                                },
+                                "InvertColor": false,
+                                "Tint": "1,1,1,1",
+                                "Blur": 0,
+                                "Sharpen": 0,
+                                "Brightness": 1,
+                                "Contrast": 1,
+                                "Saturation": 1,
+                                "Hue": 0,
+                                "Colorize": false,
+                                "TargetColor": "1,1,1,1",
+                                "CacheToDisk": true
+                              },
+                              "compiled": null
+                            },
+                            "BroadcastMessages": []
+                          }
+                        ]
+                      }
+                    ],
+                    "__references": null
+                  },
+                  "compiled": null
+                }
+              },
+              {
+                "Target": {
+                  "Type": "Component",
+                  "IdValue": "dc6d50e1-12b6-4d1e-a43f-1183bf70762e"
+                },
+                "Property": "Center",
+                "Value": "-79.1414795,3.77797699,-1.71946716"
+              },
+              {
+                "Target": {
+                  "Type": "Component",
+                  "IdValue": "dc6d50e1-12b6-4d1e-a43f-1183bf70762e"
+                },
+                "Property": "Scale",
+                "Value": "548.348877,204.416367,103.481949"
+              }
+            ],
+            "MovedObjects": []
+          },
+          "__PrefabIdToInstanceId": {
+            "33feb317-64bd-44cc-9885-9f02f8e03324": "44be510f-4df6-416d-9229-e00ebcb3492c",
+            "391a93a4-e822-4ac8-b07b-9f4f760c4c8c": "c7e0c6bb-4a1d-420d-838c-119594631484",
+            "dc6d50e1-12b6-4d1e-a43f-1183bf70762e": "3829e012-a805-418f-8ee2-ca9e7a9dacae"
+          }
+        },
+        {
+          "__guid": "d6113994-31fc-4910-b8b5-2f24e8ec8fc0",
+          "__version": 2,
+          "__Prefab": "tiles/tall2.prefab",
+          "__PrefabInstancePatch": {
+            "AddedObjects": [],
+            "RemovedObjects": [],
+            "PropertyOverrides": [
+              {
+                "Target": {
+                  "Type": "GameObject",
+                  "IdValue": "d3ea09fb-b9dd-45d2-abff-bc54e5c3956c"
+                },
+                "Property": "Position",
+                "Value": "-1055.69006,0,218.588608"
+              },
+              {
+                "Target": {
+                  "Type": "GameObject",
+                  "IdValue": "d3ea09fb-b9dd-45d2-abff-bc54e5c3956c"
+                },
+                "Property": "Rotation",
+                "Value": "0,0,0.707106709,0.707106709"
+              }
+            ],
+            "MovedObjects": []
+          },
+          "__PrefabIdToInstanceId": {
+            "d3ea09fb-b9dd-45d2-abff-bc54e5c3956c": "d6113994-31fc-4910-b8b5-2f24e8ec8fc0",
+            "e94b1635-2f8c-457c-bba8-f715747d32dd": "a7acaa98-823e-4364-938f-70b5995e8772",
+            "1296cd9f-3b4f-4a0e-bc6c-60a2350989cf": "60a2808b-6782-44a0-8363-7a030c08522a"
+          }
+        },
+        {
+          "__guid": "ddeca46f-5ef2-48ee-92e7-92bb345359ae",
+          "__version": 2,
+          "__Prefab": "tiles/tall2.prefab",
+          "__PrefabInstancePatch": {
+            "AddedObjects": [],
+            "RemovedObjects": [],
+            "PropertyOverrides": [
+              {
+                "Target": {
+                  "Type": "GameObject",
+                  "IdValue": "d3ea09fb-b9dd-45d2-abff-bc54e5c3956c"
+                },
+                "Property": "Position",
+                "Value": "129.781006,0,218.588562"
+              },
+              {
+                "Target": {
+                  "Type": "GameObject",
+                  "IdValue": "d3ea09fb-b9dd-45d2-abff-bc54e5c3956c"
+                },
+                "Property": "Rotation",
+                "Value": "0,0,0.707106709,0.707106709"
+              }
+            ],
+            "MovedObjects": []
+          },
+          "__PrefabIdToInstanceId": {
+            "d3ea09fb-b9dd-45d2-abff-bc54e5c3956c": "ddeca46f-5ef2-48ee-92e7-92bb345359ae",
+            "e94b1635-2f8c-457c-bba8-f715747d32dd": "060b6bd4-d6d3-42bc-bdc8-7cca6b03067b",
+            "1296cd9f-3b4f-4a0e-bc6c-60a2350989cf": "3cfe15a2-1a06-434f-8b3b-b3f4891b27f7"
+          }
+        },
+        {
+          "__guid": "ae6e06fb-5b8d-4693-a6bb-6361cd98b40c",
+          "__version": 2,
+          "__Prefab": "tiles/ground2.prefab",
+          "__PrefabInstancePatch": {
+            "AddedObjects": [],
+            "RemovedObjects": [],
+            "PropertyOverrides": [
+              {
+                "Target": {
+                  "Type": "GameObject",
+                  "IdValue": "ab3e7409-8c02-486a-9fa7-56ca952cb785"
+                },
+                "Property": "Name",
+                "Value": "ground2 (1)"
+              },
+              {
+                "Target": {
+                  "Type": "GameObject",
+                  "IdValue": "ab3e7409-8c02-486a-9fa7-56ca952cb785"
+                },
+                "Property": "Position",
+                "Value": "-238.866211,0,-31.3036041"
+              },
+              {
+                "Target": {
+                  "Type": "GameObject",
+                  "IdValue": "ab3e7409-8c02-486a-9fa7-56ca952cb785"
+                },
+                "Property": "Rotation",
+                "Value": "0,0,0.707106709,0.707106709"
+              },
+              {
+                "Target": {
+                  "Type": "Component",
+                  "IdValue": "911a69c1-2949-4e97-b100-f5e7d6ac5e14"
+                },
+                "Property": "Sprite",
+                "Value": {
+                  "$compiler": "embed",
+                  "$source": null,
+                  "data": {
+                    "Animations": [
+                      {
+                        "Name": "Default",
+                        "FrameRate": 15,
+                        "Origin": "0.5,0.5",
+                        "LoopMode": "Loop",
+                        "Frames": [
+                          {
+                            "Texture": {
+                              "$compiler": "texture",
+                              "$source": "imagefile",
+                              "data": {
+                                "FilePath": "sprites/tiles/rec.png",
+                                "MaxSize": 4096,
+                                "ConvertHeightToNormals": false,
+                                "NormalScale": 1,
+                                "Rotate": 0,
+                                "FlipVertical": false,
+                                "FlipHorizontal": false,
+                                "Cropping": {
+                                  "Left": 0,
+                                  "Top": 0,
+                                  "Right": 0,
+                                  "Bottom": 0
+                                },
+                                "Padding": {
+                                  "Left": 0,
+                                  "Top": 0,
+                                  "Right": 0,
+                                  "Bottom": 0
+                                },
+                                "InvertColor": false,
+                                "Tint": "1,1,1,1",
+                                "Blur": 0,
+                                "Sharpen": 0,
+                                "Brightness": 1,
+                                "Contrast": 1,
+                                "Saturation": 1,
+                                "Hue": 0,
+                                "Colorize": false,
+                                "TargetColor": "1,1,1,1",
+                                "CacheToDisk": true
+                              },
+                              "compiled": null
+                            },
+                            "BroadcastMessages": []
+                          }
+                        ]
+                      }
+                    ],
+                    "__references": null
+                  },
+                  "compiled": null
+                }
+              }
+            ],
+            "MovedObjects": []
+          },
+          "__PrefabIdToInstanceId": {
+            "ab3e7409-8c02-486a-9fa7-56ca952cb785": "ae6e06fb-5b8d-4693-a6bb-6361cd98b40c",
+            "911a69c1-2949-4e97-b100-f5e7d6ac5e14": "b3f6bd3f-b547-4feb-b215-be2ac4f4b21c",
+            "1388e3aa-30af-4878-983a-f826b40f2e81": "7ec7e904-8163-4f47-8f43-db7dc7879b24"
+          }
+        },
+        {
+          "__guid": "085248ae-6e46-4d80-8bc2-c0231cb97abf",
+          "__version": 2,
+          "__Prefab": "tiles/ground2.prefab",
+          "__PrefabInstancePatch": {
+            "AddedObjects": [],
+            "RemovedObjects": [],
+            "PropertyOverrides": [
+              {
+                "Target": {
+                  "Type": "GameObject",
+                  "IdValue": "ab3e7409-8c02-486a-9fa7-56ca952cb785"
+                },
+                "Property": "Position",
+                "Value": "-700.21051,0,-31.3036041"
+              },
+              {
+                "Target": {
+                  "Type": "GameObject",
+                  "IdValue": "ab3e7409-8c02-486a-9fa7-56ca952cb785"
+                },
+                "Property": "Rotation",
+                "Value": "0,0,0.707106709,0.707106709"
+              },
+              {
+                "Target": {
+                  "Type": "Component",
+                  "IdValue": "911a69c1-2949-4e97-b100-f5e7d6ac5e14"
+                },
+                "Property": "Sprite",
+                "Value": {
+                  "$compiler": "embed",
+                  "$source": null,
+                  "data": {
+                    "Animations": [
+                      {
+                        "Name": "Default",
+                        "FrameRate": 15,
+                        "Origin": "0.5,0.5",
+                        "LoopMode": "Loop",
+                        "Frames": [
+                          {
+                            "Texture": {
+                              "$compiler": "texture",
+                              "$source": "imagefile",
+                              "data": {
+                                "FilePath": "sprites/tiles/rec.png",
+                                "MaxSize": 4096,
+                                "ConvertHeightToNormals": false,
+                                "NormalScale": 1,
+                                "Rotate": 0,
+                                "FlipVertical": false,
+                                "FlipHorizontal": false,
+                                "Cropping": {
+                                  "Left": 0,
+                                  "Top": 0,
+                                  "Right": 0,
+                                  "Bottom": 0
+                                },
+                                "Padding": {
+                                  "Left": 0,
+                                  "Top": 0,
+                                  "Right": 0,
+                                  "Bottom": 0
+                                },
+                                "InvertColor": false,
+                                "Tint": "1,1,1,1",
+                                "Blur": 0,
+                                "Sharpen": 0,
+                                "Brightness": 1,
+                                "Contrast": 1,
+                                "Saturation": 1,
+                                "Hue": 0,
+                                "Colorize": false,
+                                "TargetColor": "1,1,1,1",
+                                "CacheToDisk": true
+                              },
+                              "compiled": null
+                            },
+                            "BroadcastMessages": []
+                          }
+                        ]
+                      }
+                    ],
+                    "__references": null
+                  },
+                  "compiled": null
+                }
+              }
+            ],
+            "MovedObjects": []
+          },
+          "__PrefabIdToInstanceId": {
+            "ab3e7409-8c02-486a-9fa7-56ca952cb785": "085248ae-6e46-4d80-8bc2-c0231cb97abf",
+            "911a69c1-2949-4e97-b100-f5e7d6ac5e14": "7434856b-0159-4106-a2aa-140987087754",
+            "1388e3aa-30af-4878-983a-f826b40f2e81": "a2d0b4e0-d67c-49c3-9b7d-2cb27baeae97"
+          }
+        }
+      ]
     }
   ],
   "SceneProperties": {
@@ -668,18 +1160,13 @@
       "CustomBounds": false
     },
     "GameObjectSystems": {
-      "Sandbox.Clutter.ClutterGridSystem": {
-        "Storage": {
-          "$blob": "b35593ae-19bd-4924-8455-b9b24d493622"
-        }
-      },
-      "Sandbox.MovieMaker.MovieRecorderSystem": {
-        "DisableClientRecording": false
-      },
       "Sandbox.SelectionSetsSystem": {
         "Data": {
           "SelectionSets": []
         }
+      },
+      "Sandbox.MovieMaker.MovieRecorderSystem": {
+        "DisableClientRecording": false
       }
     }
   },

@@ -1,0 +1,115 @@
+{
+  "RootObject": {
+    "__guid": "d3ea09fb-b9dd-45d2-abff-bc54e5c3956c",
+    "__version": 2,
+    "Flags": 0,
+    "Name": "tall",
+    "Position": "0,0,0",
+    "Rotation": "0,0,0.707106769,0.707106769",
+    "Scale": "1,1,1",
+    "Tags": "",
+    "Enabled": true,
+    "NetworkMode": 2,
+    "NetworkFlags": 0,
+    "NetworkOrphaned": 0,
+    "NetworkTransmit": true,
+    "OwnerTransfer": 1,
+    "Components": [
+      {
+        "__type": "Sandbox.SpriteRenderer",
+        "__guid": "e94b1635-2f8c-457c-bba8-f715747d32dd",
+        "__enabled": true,
+        "Flags": 0,
+        "__version": 2,
+        "Additive": false,
+        "AlphaCutoff": 0.5,
+        "Billboard": "None",
+        "Color": "1,1,1,1",
+        "DepthFeather": 0,
+        "FlipHorizontal": false,
+        "FlipVertical": false,
+        "FogStrength": 1,
+        "IsSorted": true,
+        "Lighting": false,
+        "OnAnimationEnd": null,
+        "OnAnimationStart": null,
+        "OnBroadcastMessage": null,
+        "OnComponentDestroy": null,
+        "OnComponentDisabled": null,
+        "OnComponentEnabled": null,
+        "OnComponentFixedUpdate": null,
+        "OnComponentStart": null,
+        "OnComponentUpdate": null,
+        "Opaque": false,
+        "OverlayColor": "1,1,1,0",
+        "PlaybackSpeed": 1,
+        "RenderOptions": {
+          "GameLayer": true,
+          "OverlayLayer": false,
+          "BloomLayer": false,
+          "AfterUILayer": false
+        },
+        "Shadows": false,
+        "Size": "500,500",
+        "Sprite": {
+          "$compiler": "embed",
+          "$source": null,
+          "data": {
+            "Animations": [
+              {
+                "Name": "Default",
+                "FrameRate": 15,
+                "Origin": "0.5,0.5",
+                "LoopMode": "Loop",
+                "Frames": [
+                  {
+                    "Texture": "sprites/tiles/tall.png",
+                    "BroadcastMessages": []
+                  }
+                ]
+              }
+            ],
+            "__references": null
+          },
+          "compiled": null
+        },
+        "StartingAnimationName": "Default",
+        "TextureFilter": "Bilinear"
+      },
+      {
+        "__type": "Sandbox.BoxCollider",
+        "__guid": "1296cd9f-3b4f-4a0e-bc6c-60a2350989cf",
+        "__enabled": true,
+        "Flags": 0,
+        "Center": "-117.510223,-2.13179016,-3.67146301",
+        "ColliderFlags": 0,
+        "Elasticity": null,
+        "Friction": null,
+        "IsTrigger": false,
+        "OnComponentDestroy": null,
+        "OnComponentDisabled": null,
+        "OnComponentEnabled": null,
+        "OnComponentFixedUpdate": null,
+        "OnComponentStart": null,
+        "OnComponentUpdate": null,
+        "OnObjectTriggerEnter": null,
+        "OnObjectTriggerExit": null,
+        "OnTriggerEnter": null,
+        "OnTriggerExit": null,
+        "RollingResistance": null,
+        "Scale": "285.020447,288.658905,422.068878",
+        "Static": false,
+        "Surface": null,
+        "SurfaceVelocity": "0,0,0"
+      }
+    ],
+    "Children": []
+  },
+  "ResourceVersion": 2,
+  "ShowInMenu": false,
+  "MenuPath": null,
+  "MenuIcon": null,
+  "DontBreakAsTemplate": false,
+  "__references": [],
+  "__version": 2
+}

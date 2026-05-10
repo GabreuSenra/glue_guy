@@ -29,6 +29,7 @@ public sealed class SlingshotController : Component, Component.ICollisionListene
     private Vector3 _surfaceNormal;
 
     private Vector2 _baseSpriteSize;
+    private EyeController _eyeController;
 
     protected override void OnStart() 
     {
@@ -36,11 +37,14 @@ public sealed class SlingshotController : Component, Component.ICollisionListene
 
         if ( Body == null ) Body = Components.Get<Rigidbody>();
         if ( PlayerSprite != null ) _baseSpriteSize = PlayerSprite.Size;
+        if ( _eyeController == null ) _eyeController = GameObject.Components.GetInChildren<EyeController>();
     }
 
     protected override void OnUpdate() 
     {
         if(IsProxy) return;
+
+        PlayerSprite.SortOrder  = 100;
 
         Mouse.Visible = true;
         HandleInput();
@@ -78,6 +82,9 @@ public sealed class SlingshotController : Component, Component.ICollisionListene
                     IsDragging = true;
                     DragStartScreenPos = Mouse.Position;
                 }
+
+                PlayAnimationSync("Hold");
+                SyncShowEyes( false );
             }
         }
 
@@ -98,7 +105,10 @@ public sealed class SlingshotController : Component, Component.ICollisionListene
     }
 
     private void Launch()
-    {
+    {   
+        PlayAnimationSync("Default");
+        SyncShowEyes( true );
+
         LastPullPercentage = CurrentPullPercentage;
         CurrentPullPercentage = 0f; 
         _timeSinceLaunch = 0; 
@@ -254,8 +264,18 @@ public sealed class SlingshotController : Component, Component.ICollisionListene
     }
 
     [Rpc.Broadcast]
-    private void SyncJuice(Vector2 targetSize)
+    private void SyncJuice( Vector2 targetSize )
     {
         PlayerSprite.Size = Vector2.Lerp( PlayerSprite.Size, targetSize, Time.Delta * 15f );
     }
-}
+    [Rpc.Broadcast]
+    private void PlayAnimationSync( string animationName )
+    {
+        PlayerSprite.PlayAnimation(animationName);
+    }
+    [Rpc.Broadcast]
+    private void SyncShowEyes( bool status )
+    {
+        _eyeController.GameObject.Enabled = status;
+    }
+}   

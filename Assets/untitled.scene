@@ -195,7 +195,7 @@
       "__version": 2,
       "Flags": 0,
       "Name": "Spawn",
-      "Position": "-93.6360474,41.5568237,-26.4846191",
+      "Position": "-93.6360474,-694.003784,-26.4846191",
       "Rotation": "0,0,0,1",
       "Scale": "1,1,1",
       "Tags": "",
@@ -368,7 +368,7 @@
               "OnTriggerEnter": null,
               "OnTriggerExit": null,
               "RollingResistance": null,
-              "Scale": "50,50,50",
+              "Scale": "50,500,50",
               "Static": false,
               "Surface": null,
               "SurfaceVelocity": "0,0,0"
@@ -440,7 +440,7 @@
               "OnTriggerEnter": null,
               "OnTriggerExit": null,
               "RollingResistance": null,
-              "Scale": "50,50,50",
+              "Scale": "50,500,50",
               "Static": false,
               "Surface": null,
               "SurfaceVelocity": "0,0,0"
@@ -512,7 +512,7 @@
               "OnTriggerEnter": null,
               "OnTriggerExit": null,
               "RollingResistance": null,
-              "Scale": "50,50,50",
+              "Scale": "50,500,50",
               "Static": false,
               "Surface": null,
               "SurfaceVelocity": "0,0,0"
@@ -584,7 +584,7 @@
               "OnTriggerEnter": null,
               "OnTriggerExit": null,
               "RollingResistance": null,
-              "Scale": "50,50,50",
+              "Scale": "50,500,50",
               "Static": false,
               "Surface": null,
               "SurfaceVelocity": "0,0,0"
@@ -656,7 +656,7 @@
               "OnTriggerEnter": null,
               "OnTriggerExit": null,
               "RollingResistance": null,
-              "Scale": "50,50,50",
+              "Scale": "50,500,50",
               "Static": false,
               "Surface": null,
               "SurfaceVelocity": "0,0,0"
@@ -728,7 +728,7 @@
               "OnTriggerEnter": null,
               "OnTriggerExit": null,
               "RollingResistance": null,
-              "Scale": "50,50,50",
+              "Scale": "50,500,50",
               "Static": false,
               "Surface": null,
               "SurfaceVelocity": "0,0,0"
@@ -761,7 +761,7 @@
               "CreateAttachments": false,
               "LodOverride": null,
               "MaterialGroup": null,
-              "MaterialOverride": null,
+              "MaterialOverride": "sprites/tiles/materials/background5.vmat",
               "Materials": null,
               "Model": "models/dev/box.vmdl",
               "OnComponentDestroy": null,
@@ -800,7 +800,7 @@
               "OnTriggerEnter": null,
               "OnTriggerExit": null,
               "RollingResistance": null,
-              "Scale": "50,50,50",
+              "Scale": "50,500,50",
               "Static": false,
               "Surface": null,
               "SurfaceVelocity": "0,0,0"
@@ -833,7 +833,7 @@
               "CreateAttachments": false,
               "LodOverride": null,
               "MaterialGroup": null,
-              "MaterialOverride": null,
+              "MaterialOverride": "sprites/tiles/materials/background5.vmat",
               "Materials": null,
               "Model": "models/dev/box.vmdl",
               "OnComponentDestroy": null,
@@ -872,7 +872,7 @@
               "OnTriggerEnter": null,
               "OnTriggerExit": null,
               "RollingResistance": null,
-              "Scale": "50,50,50",
+              "Scale": "50,500,50",
               "Static": false,
               "Surface": null,
               "SurfaceVelocity": "0,0,0"
@@ -905,7 +905,7 @@
               "CreateAttachments": false,
               "LodOverride": null,
               "MaterialGroup": null,
-              "MaterialOverride": null,
+              "MaterialOverride": "sprites/tiles/materials/background5.vmat",
               "Materials": null,
               "Model": "models/dev/box.vmdl",
               "OnComponentDestroy": null,
@@ -944,7 +944,7 @@
               "OnTriggerEnter": null,
               "OnTriggerExit": null,
               "RollingResistance": null,
-              "Scale": "50,50,50",
+              "Scale": "50,500,50",
               "Static": false,
               "Surface": null,
               "SurfaceVelocity": "0,0,0"
@@ -1016,7 +1016,7 @@
               "OnTriggerEnter": null,
               "OnTriggerExit": null,
               "RollingResistance": null,
-              "Scale": "50,50,50",
+              "Scale": "50,500,50",
               "Static": false,
               "Surface": null,
               "SurfaceVelocity": "0,0,0"
@@ -1088,7 +1088,7 @@
               "OnTriggerEnter": null,
               "OnTriggerExit": null,
               "RollingResistance": null,
-              "Scale": "50,50,50",
+              "Scale": "50,500,50",
               "Static": false,
               "Surface": null,
               "SurfaceVelocity": "0,0,0"
@@ -1160,7 +1160,7 @@
               "OnTriggerEnter": null,
               "OnTriggerExit": null,
               "RollingResistance": null,
-              "Scale": "50,50,50",
+              "Scale": "50,500,50",
               "Static": false,
               "Surface": null,
               "SurfaceVelocity": "0,0,0"
@@ -1232,7 +1232,7 @@
               "OnTriggerEnter": null,
               "OnTriggerExit": null,
               "RollingResistance": null,
-              "Scale": "50,50,50",
+              "Scale": "50,500,50",
               "Static": false,
               "Surface": null,
               "SurfaceVelocity": "0,0,0"
@@ -1304,7 +1304,7 @@
               "OnTriggerEnter": null,
               "OnTriggerExit": null,
               "RollingResistance": null,
-              "Scale": "50,50,50",
+              "Scale": "50,500,50",
               "Static": false,
               "Surface": null,
               "SurfaceVelocity": "0,0,0"
@@ -1376,7 +1376,7 @@
               "OnTriggerEnter": null,
               "OnTriggerExit": null,
               "RollingResistance": null,
-              "Scale": "50,50,50",
+              "Scale": "50,500,50",
               "Static": false,
               "Surface": null,
               "SurfaceVelocity": "0,0,0"
@@ -1448,7 +1448,7 @@
               "OnTriggerEnter": null,
               "OnTriggerExit": null,
               "RollingResistance": null,
-              "Scale": "50,50,50",
+              "Scale": "50,500,50",
               "Static": false,
               "Surface": null,
               "SurfaceVelocity": "0,0,0"
@@ -1520,7 +1520,7 @@
               "OnTriggerEnter": null,
               "OnTriggerExit": null,
               "RollingResistance": null,
-              "Scale": "50,50,50",
+              "Scale": "50,500,50",
               "Static": false,
               "Surface": null,
               "SurfaceVelocity": "0,0,0"
@@ -1592,7 +1592,7 @@
               "OnTriggerEnter": null,
               "OnTriggerExit": null,
               "RollingResistance": null,
-              "Scale": "50,50,50",
+              "Scale": "50,500,50",
               "Static": false,
               "Surface": null,
               "SurfaceVelocity": "0,0,0"
@@ -1664,7 +1664,7 @@
               "OnTriggerEnter": null,
               "OnTriggerExit": null,
               "RollingResistance": null,
-              "Scale": "50,50,50",
+              "Scale": "50,500,50",
               "Static": false,
               "Surface": null,
               "SurfaceVelocity": "0,0,0"
@@ -1736,7 +1736,7 @@
               "OnTriggerEnter": null,
               "OnTriggerExit": null,
               "RollingResistance": null,
-              "Scale": "50,50,50",
+              "Scale": "50,500,50",
               "Static": false,
               "Surface": null,
               "SurfaceVelocity": "0,0,0"
@@ -1808,7 +1808,7 @@
               "OnTriggerEnter": null,
               "OnTriggerExit": null,
               "RollingResistance": null,
-              "Scale": "50,50,50",
+              "Scale": "50,500,50",
               "Static": false,
               "Surface": null,
               "SurfaceVelocity": "0,0,0"
@@ -1880,7 +1880,7 @@
               "OnTriggerEnter": null,
               "OnTriggerExit": null,
               "RollingResistance": null,
-              "Scale": "50,50,50",
+              "Scale": "50,500,50",
               "Static": false,
               "Surface": null,
               "SurfaceVelocity": "0,0,0"
@@ -1952,7 +1952,7 @@
               "OnTriggerEnter": null,
               "OnTriggerExit": null,
               "RollingResistance": null,
-              "Scale": "50,50,50",
+              "Scale": "50,500,50",
               "Static": false,
               "Surface": null,
               "SurfaceVelocity": "0,0,0"
@@ -2024,7 +2024,7 @@
               "OnTriggerEnter": null,
               "OnTriggerExit": null,
               "RollingResistance": null,
-              "Scale": "50,50,50",
+              "Scale": "50,500,50",
               "Static": false,
               "Surface": null,
               "SurfaceVelocity": "0,0,0"
@@ -2096,7 +2096,7 @@
               "OnTriggerEnter": null,
               "OnTriggerExit": null,
               "RollingResistance": null,
-              "Scale": "50,50,50",
+              "Scale": "50,500,50",
               "Static": false,
               "Surface": null,
               "SurfaceVelocity": "0,0,0"
@@ -2168,7 +2168,7 @@
               "OnTriggerEnter": null,
               "OnTriggerExit": null,
               "RollingResistance": null,
-              "Scale": "50,50,50",
+              "Scale": "50,500,50",
               "Static": false,
               "Surface": null,
               "SurfaceVelocity": "0,0,0"
@@ -2240,7 +2240,7 @@
               "OnTriggerEnter": null,
               "OnTriggerExit": null,
               "RollingResistance": null,
-              "Scale": "50,50,50",
+              "Scale": "50,500,50",
               "Static": false,
               "Surface": null,
               "SurfaceVelocity": "0,0,0"
@@ -2312,7 +2312,7 @@
               "OnTriggerEnter": null,
               "OnTriggerExit": null,
               "RollingResistance": null,
-              "Scale": "50,50,50",
+              "Scale": "50,500,50",
               "Static": false,
               "Surface": null,
               "SurfaceVelocity": "0,0,0"
@@ -2384,7 +2384,7 @@
               "OnTriggerEnter": null,
               "OnTriggerExit": null,
               "RollingResistance": null,
-              "Scale": "50,50,50",
+              "Scale": "50,500,50",
               "Static": false,
               "Surface": null,
               "SurfaceVelocity": "0,0,0"
@@ -2456,7 +2456,7 @@
               "OnTriggerEnter": null,
               "OnTriggerExit": null,
               "RollingResistance": null,
-              "Scale": "50,50,50",
+              "Scale": "50,500,50",
               "Static": false,
               "Surface": null,
               "SurfaceVelocity": "0,0,0"
@@ -2528,7 +2528,7 @@
               "OnTriggerEnter": null,
               "OnTriggerExit": null,
               "RollingResistance": null,
-              "Scale": "50,50,50",
+              "Scale": "50,500,50",
               "Static": false,
               "Surface": null,
               "SurfaceVelocity": "0,0,0"
@@ -2600,7 +2600,7 @@
               "OnTriggerEnter": null,
               "OnTriggerExit": null,
               "RollingResistance": null,
-              "Scale": "50,50,50",
+              "Scale": "50,500,50",
               "Static": false,
               "Surface": null,
               "SurfaceVelocity": "0,0,0"
@@ -2633,7 +2633,7 @@
               "CreateAttachments": false,
               "LodOverride": null,
               "MaterialGroup": null,
-              "MaterialOverride": null,
+              "MaterialOverride": "sprites/tiles/materials/background3.vmat",
               "Materials": null,
               "Model": "models/dev/box.vmdl",
               "OnComponentDestroy": null,
@@ -2672,7 +2672,7 @@
               "OnTriggerEnter": null,
               "OnTriggerExit": null,
               "RollingResistance": null,
-              "Scale": "50,50,50",
+              "Scale": "50,500,50",
               "Static": false,
               "Surface": null,
               "SurfaceVelocity": "0,0,0"
@@ -2685,7 +2685,7 @@
           "__version": 2,
           "Flags": 0,
           "Name": "Cube (39)",
-          "Position": "-203.725403,0,13091.7959",
+          "Position": "-203.725403,26.9757652,13091.7959",
           "Rotation": "0,0,0,1",
           "Scale": "18.2588215,9.33124447,4.76465654",
           "Tags": "",
@@ -2744,7 +2744,7 @@
               "OnTriggerEnter": null,
               "OnTriggerExit": null,
               "RollingResistance": null,
-              "Scale": "50,50,50",
+              "Scale": "50,500,50",
               "Static": false,
               "Surface": null,
               "SurfaceVelocity": "0,0,0"
@@ -2816,7 +2816,7 @@
               "OnTriggerEnter": null,
               "OnTriggerExit": null,
               "RollingResistance": null,
-              "Scale": "50,50,50",
+              "Scale": "50,500,50",
               "Static": false,
               "Surface": null,
               "SurfaceVelocity": "0,0,0"
@@ -2849,7 +2849,7 @@
               "CreateAttachments": false,
               "LodOverride": null,
               "MaterialGroup": null,
-              "MaterialOverride": null,
+              "MaterialOverride": "sprites/tiles/materials/background3.vmat",
               "Materials": null,
               "Model": "models/dev/box.vmdl",
               "OnComponentDestroy": null,
@@ -2888,7 +2888,7 @@
               "OnTriggerEnter": null,
               "OnTriggerExit": null,
               "RollingResistance": null,
-              "Scale": "50,50,50",
+              "Scale": "50,500,50",
               "Static": false,
               "Surface": null,
               "SurfaceVelocity": "0,0,0"
@@ -2921,7 +2921,7 @@
               "CreateAttachments": false,
               "LodOverride": null,
               "MaterialGroup": null,
-              "MaterialOverride": null,
+              "MaterialOverride": "sprites/tiles/materials/background4.vmat",
               "Materials": null,
               "Model": "models/dev/box.vmdl",
               "OnComponentDestroy": null,
@@ -2960,7 +2960,7 @@
               "OnTriggerEnter": null,
               "OnTriggerExit": null,
               "RollingResistance": null,
-              "Scale": "50,50,50",
+              "Scale": "50,500,50",
               "Static": false,
               "Surface": null,
               "SurfaceVelocity": "0,0,0"
@@ -2993,7 +2993,7 @@
               "CreateAttachments": false,
               "LodOverride": null,
               "MaterialGroup": null,
-              "MaterialOverride": null,
+              "MaterialOverride": "sprites/tiles/materials/background6.vmat",
               "Materials": null,
               "Model": "models/dev/box.vmdl",
               "OnComponentDestroy": null,
@@ -3032,7 +3032,7 @@
               "OnTriggerEnter": null,
               "OnTriggerExit": null,
               "RollingResistance": null,
-              "Scale": "50,50,50",
+              "Scale": "50,500,50",
               "Static": false,
               "Surface": null,
               "SurfaceVelocity": "0,0,0"
@@ -3065,7 +3065,7 @@
               "CreateAttachments": false,
               "LodOverride": null,
               "MaterialGroup": null,
-              "MaterialOverride": null,
+              "MaterialOverride": "sprites/tiles/materials/background3.vmat",
               "Materials": null,
               "Model": "models/dev/box.vmdl",
               "OnComponentDestroy": null,
@@ -3104,7 +3104,7 @@
               "OnTriggerEnter": null,
               "OnTriggerExit": null,
               "RollingResistance": null,
-              "Scale": "50,50,50",
+              "Scale": "50,500,50",
               "Static": false,
               "Surface": null,
               "SurfaceVelocity": "0,0,0"
@@ -3176,7 +3176,7 @@
               "OnTriggerEnter": null,
               "OnTriggerExit": null,
               "RollingResistance": null,
-              "Scale": "50,50,50",
+              "Scale": "50,500,50",
               "Static": false,
               "Surface": null,
               "SurfaceVelocity": "0,0,0"
@@ -3189,7 +3189,7 @@
           "__version": 2,
           "Flags": 0,
           "Name": "Cube (39)",
-          "Position": "-1223.10144,0,18647.7324",
+          "Position": "-1223.10144,-26.8521461,18647.7324",
           "Rotation": "0,0,0,1",
           "Scale": "4.25581217,9.33124447,40.5142593",
           "Tags": "",
@@ -3248,7 +3248,7 @@
               "OnTriggerEnter": null,
               "OnTriggerExit": null,
               "RollingResistance": null,
-              "Scale": "50,50,50",
+              "Scale": "50,500,50",
               "Static": false,
               "Surface": null,
               "SurfaceVelocity": "0,0,0"
@@ -3261,7 +3261,7 @@
           "__version": 2,
           "Flags": 0,
           "Name": "Cube (39)",
-          "Position": "-977.177795,0,17808.3203",
+          "Position": "-977.177795,21.9058762,17808.3203",
           "Rotation": "0,0,0,1",
           "Scale": "13.051713,9.33124447,40.5142593",
           "Tags": "",
@@ -3281,7 +3281,7 @@
               "CreateAttachments": false,
               "LodOverride": null,
               "MaterialGroup": null,
-              "MaterialOverride": null,
+              "MaterialOverride": "sprites/tiles/materials/background4.vmat",
               "Materials": null,
               "Model": "models/dev/box.vmdl",
               "OnComponentDestroy": null,
@@ -3320,7 +3320,7 @@
               "OnTriggerEnter": null,
               "OnTriggerExit": null,
               "RollingResistance": null,
-              "Scale": "50,50,50",
+              "Scale": "50,500,50",
               "Static": false,
               "Surface": null,
               "SurfaceVelocity": "0,0,0"
@@ -3392,7 +3392,7 @@
               "OnTriggerEnter": null,
               "OnTriggerExit": null,
               "RollingResistance": null,
-              "Scale": "50,50,50",
+              "Scale": "50,500,50",
               "Static": false,
               "Surface": null,
               "SurfaceVelocity": "0,0,0"
@@ -3425,7 +3425,7 @@
               "CreateAttachments": false,
               "LodOverride": null,
               "MaterialGroup": null,
-              "MaterialOverride": null,
+              "MaterialOverride": "sprites/tiles/materials/background3.vmat",
               "Materials": null,
               "Model": "models/dev/box.vmdl",
               "OnComponentDestroy": null,
@@ -3464,7 +3464,7 @@
               "OnTriggerEnter": null,
               "OnTriggerExit": null,
               "RollingResistance": null,
-              "Scale": "50,50,50",
+              "Scale": "50,500,50",
               "Static": false,
               "Surface": null,
               "SurfaceVelocity": "0,0,0"
@@ -3477,7 +3477,7 @@
           "__version": 2,
           "Flags": 0,
           "Name": "Cube (39)",
-          "Position": "1643.15186,0,19278.0859",
+          "Position": "1643.15186,39.4935493,19278.0859",
           "Rotation": "0,0,0,1",
           "Scale": "18.2588215,9.33124447,40.5142593",
           "Tags": "",
@@ -3497,7 +3497,7 @@
               "CreateAttachments": false,
               "LodOverride": null,
               "MaterialGroup": null,
-              "MaterialOverride": null,
+              "MaterialOverride": "sprites/tiles/materials/background3.vmat",
               "Materials": null,
               "Model": "models/dev/box.vmdl",
               "OnComponentDestroy": null,
@@ -3536,7 +3536,7 @@
               "OnTriggerEnter": null,
               "OnTriggerExit": null,
               "RollingResistance": null,
-              "Scale": "50,50,50",
+              "Scale": "50,500,50",
               "Static": false,
               "Surface": null,
               "SurfaceVelocity": "0,0,0"
@@ -3549,7 +3549,7 @@
           "__version": 2,
           "Flags": 0,
           "Name": "Cube (39)",
-          "Position": "1533.97485,0,19776.9551",
+          "Position": "1533.97485,54.4846191,19776.9551",
           "Rotation": "0,0,0,1",
           "Scale": "18.2588215,9.33124447,40.5142593",
           "Tags": "",
@@ -3569,7 +3569,7 @@
               "CreateAttachments": false,
               "LodOverride": null,
               "MaterialGroup": null,
-              "MaterialOverride": null,
+              "MaterialOverride": "sprites/tiles/materials/background3.vmat",
               "Materials": null,
               "Model": "models/dev/box.vmdl",
               "OnComponentDestroy": null,
@@ -3608,7 +3608,7 @@
               "OnTriggerEnter": null,
               "OnTriggerExit": null,
               "RollingResistance": null,
-              "Scale": "50,50,50",
+              "Scale": "50,500,50",
               "Static": false,
               "Surface": null,
               "SurfaceVelocity": "0,0,0"
@@ -3621,7 +3621,7 @@
           "__version": 2,
           "Flags": 0,
           "Name": "Cube (39)",
-          "Position": "930.879944,0,20308.0801",
+          "Position": "930.879944,-14.0129499,20308.0801",
           "Rotation": "0,0,0,1",
           "Scale": "18.2588215,9.33124447,40.5142593",
           "Tags": "",
@@ -3641,7 +3641,7 @@
               "CreateAttachments": false,
               "LodOverride": null,
               "MaterialGroup": null,
-              "MaterialOverride": null,
+              "MaterialOverride": "sprites/tiles/materials/background3.vmat",
               "Materials": null,
               "Model": "models/dev/box.vmdl",
               "OnComponentDestroy": null,
@@ -3680,7 +3680,7 @@
               "OnTriggerEnter": null,
               "OnTriggerExit": null,
               "RollingResistance": null,
-              "Scale": "50,50,50",
+              "Scale": "50,500,50",
               "Static": false,
               "Surface": null,
               "SurfaceVelocity": "0,0,0"
@@ -3693,7 +3693,7 @@
           "__version": 2,
           "Flags": 0,
           "Name": "Cube (39)",
-          "Position": "-1833.79272,0,20749.3652",
+          "Position": "-1833.79272,-46.7758789,20749.3652",
           "Rotation": "0,0,0,1",
           "Scale": "53.6612892,9.33124447,40.5142593",
           "Tags": "",
@@ -3713,7 +3713,7 @@
               "CreateAttachments": false,
               "LodOverride": null,
               "MaterialGroup": null,
-              "MaterialOverride": null,
+              "MaterialOverride": "sprites/tiles/materials/background6.vmat",
               "Materials": null,
               "Model": "models/dev/box.vmdl",
               "OnComponentDestroy": null,
@@ -3752,7 +3752,7 @@
               "OnTriggerEnter": null,
               "OnTriggerExit": null,
               "RollingResistance": null,
-              "Scale": "50,50,50",
+              "Scale": "50,500,50",
               "Static": false,
               "Surface": null,
               "SurfaceVelocity": "0,0,0"
@@ -3785,7 +3785,7 @@
               "CreateAttachments": false,
               "LodOverride": null,
               "MaterialGroup": null,
-              "MaterialOverride": null,
+              "MaterialOverride": "sprites/tiles/materials/background3.vmat",
               "Materials": null,
               "Model": "models/dev/box.vmdl",
               "OnComponentDestroy": null,
@@ -3824,7 +3824,7 @@
               "OnTriggerEnter": null,
               "OnTriggerExit": null,
               "RollingResistance": null,
-              "Scale": "50,50,50",
+              "Scale": "50,500,50",
               "Static": false,
               "Surface": null,
               "SurfaceVelocity": "0,0,0"
@@ -3896,7 +3896,7 @@
               "OnTriggerEnter": null,
               "OnTriggerExit": null,
               "RollingResistance": null,
-              "Scale": "50,50,50",
+              "Scale": "50,500,50",
               "Static": false,
               "Surface": null,
               "SurfaceVelocity": "0,0,0"
@@ -3909,7 +3909,7 @@
           "__version": 2,
           "Flags": 0,
           "Name": "Cube (39)",
-          "Position": "-406.129852,0,11696.1074",
+          "Position": "-406.129852,-51.3576393,11696.1074",
           "Rotation": "0,0,0,1",
           "Scale": "3.49150038,9.33124447,11.2231855",
           "Tags": "",
@@ -3968,7 +3968,7 @@
               "OnTriggerEnter": null,
               "OnTriggerExit": null,
               "RollingResistance": null,
-              "Scale": "50,50,50",
+              "Scale": "50,500,50",
               "Static": false,
               "Surface": null,
               "SurfaceVelocity": "0,0,0"
@@ -4040,7 +4040,7 @@
               "OnTriggerEnter": null,
               "OnTriggerExit": null,
               "RollingResistance": null,
-              "Scale": "50,50,50",
+              "Scale": "50,500,50",
               "Static": false,
               "Surface": null,
               "SurfaceVelocity": "0,0,0"
@@ -4073,7 +4073,7 @@
               "CreateAttachments": false,
               "LodOverride": null,
               "MaterialGroup": null,
-              "MaterialOverride": null,
+              "MaterialOverride": "sprites/tiles/materials/background5.vmat",
               "Materials": null,
               "Model": "models/dev/box.vmdl",
               "OnComponentDestroy": null,
@@ -4112,7 +4112,7 @@
               "OnTriggerEnter": null,
               "OnTriggerExit": null,
               "RollingResistance": null,
-              "Scale": "50,50,50",
+              "Scale": "50,500,50",
               "Static": false,
               "Surface": null,
               "SurfaceVelocity": "0,0,0"
@@ -4184,7 +4184,7 @@
               "OnTriggerEnter": null,
               "OnTriggerExit": null,
               "RollingResistance": null,
-              "Scale": "50,50,50",
+              "Scale": "50,500,50",
               "Static": false,
               "Surface": null,
               "SurfaceVelocity": "0,0,0"
@@ -4256,7 +4256,7 @@
               "OnTriggerEnter": null,
               "OnTriggerExit": null,
               "RollingResistance": null,
-              "Scale": "50,50,50",
+              "Scale": "50,500,50",
               "Static": false,
               "Surface": null,
               "SurfaceVelocity": "0,0,0"
@@ -4328,7 +4328,7 @@
               "OnTriggerEnter": null,
               "OnTriggerExit": null,
               "RollingResistance": null,
-              "Scale": "50,50,50",
+              "Scale": "50,500,50",
               "Static": false,
               "Surface": null,
               "SurfaceVelocity": "0,0,0"
@@ -4400,7 +4400,7 @@
               "OnTriggerEnter": null,
               "OnTriggerExit": null,
               "RollingResistance": null,
-              "Scale": "50,50,50",
+              "Scale": "50,500,50",
               "Static": false,
               "Surface": null,
               "SurfaceVelocity": "0,0,0"
@@ -4472,7 +4472,7 @@
               "OnTriggerEnter": null,
               "OnTriggerExit": null,
               "RollingResistance": null,
-              "Scale": "50,50,50",
+              "Scale": "50,500,50",
               "Static": false,
               "Surface": null,
               "SurfaceVelocity": "0,0,0"
@@ -4544,7 +4544,7 @@
               "OnTriggerEnter": null,
               "OnTriggerExit": null,
               "RollingResistance": null,
-              "Scale": "50,50,50",
+              "Scale": "50,500,50",
               "Static": false,
               "Surface": null,
               "SurfaceVelocity": "0,0,0"
@@ -4616,7 +4616,7 @@
               "OnTriggerEnter": null,
               "OnTriggerExit": null,
               "RollingResistance": null,
-              "Scale": "50,50,50",
+              "Scale": "50,500,50",
               "Static": false,
               "Surface": null,
               "SurfaceVelocity": "0,0,0"
@@ -4688,7 +4688,7 @@
               "OnTriggerEnter": null,
               "OnTriggerExit": null,
               "RollingResistance": null,
-              "Scale": "50,50,50",
+              "Scale": "50,500,50",
               "Static": false,
               "Surface": null,
               "SurfaceVelocity": "0,0,0"
@@ -4760,7 +4760,7 @@
               "OnTriggerEnter": null,
               "OnTriggerExit": null,
               "RollingResistance": null,
-              "Scale": "50,50,50",
+              "Scale": "50,500,50",
               "Static": false,
               "Surface": null,
               "SurfaceVelocity": "0,0,0"
@@ -4832,7 +4832,7 @@
               "OnTriggerEnter": null,
               "OnTriggerExit": null,
               "RollingResistance": null,
-              "Scale": "50,50,50",
+              "Scale": "50,500,50",
               "Static": false,
               "Surface": null,
               "SurfaceVelocity": "0,0,0"
@@ -4904,7 +4904,7 @@
               "OnTriggerEnter": null,
               "OnTriggerExit": null,
               "RollingResistance": null,
-              "Scale": "50,50,50",
+              "Scale": "50,500,50",
               "Static": false,
               "Surface": null,
               "SurfaceVelocity": "0,0,0"
@@ -4976,7 +4976,7 @@
               "OnTriggerEnter": null,
               "OnTriggerExit": null,
               "RollingResistance": null,
-              "Scale": "50,50,50",
+              "Scale": "50,500,50",
               "Static": false,
               "Surface": null,
               "SurfaceVelocity": "0,0,0"
@@ -5048,7 +5048,7 @@
               "OnTriggerEnter": null,
               "OnTriggerExit": null,
               "RollingResistance": null,
-              "Scale": "50,50,50",
+              "Scale": "50,500,50",
               "Static": false,
               "Surface": null,
               "SurfaceVelocity": "0,0,0"
@@ -5120,7 +5120,7 @@
               "OnTriggerEnter": null,
               "OnTriggerExit": null,
               "RollingResistance": null,
-              "Scale": "50,50,50",
+              "Scale": "50,500,50",
               "Static": false,
               "Surface": null,
               "SurfaceVelocity": "0,0,0"
@@ -5192,7 +5192,7 @@
               "OnTriggerEnter": null,
               "OnTriggerExit": null,
               "RollingResistance": null,
-              "Scale": "50,50,50",
+              "Scale": "50,500,50",
               "Static": false,
               "Surface": null,
               "SurfaceVelocity": "0,0,0"
@@ -5264,7 +5264,7 @@
               "OnTriggerEnter": null,
               "OnTriggerExit": null,
               "RollingResistance": null,
-              "Scale": "50,50,50",
+              "Scale": "50,500,50",
               "Static": false,
               "Surface": null,
               "SurfaceVelocity": "0,0,0"
@@ -5336,7 +5336,7 @@
               "OnTriggerEnter": null,
               "OnTriggerExit": null,
               "RollingResistance": null,
-              "Scale": "50,50,50",
+              "Scale": "50,500,50",
               "Static": false,
               "Surface": null,
               "SurfaceVelocity": "0,0,0"
@@ -5408,7 +5408,7 @@
               "OnTriggerEnter": null,
               "OnTriggerExit": null,
               "RollingResistance": null,
-              "Scale": "50,50,50",
+              "Scale": "50,500,50",
               "Static": false,
               "Surface": null,
               "SurfaceVelocity": "0,0,0"
@@ -5480,7 +5480,7 @@
               "OnTriggerEnter": null,
               "OnTriggerExit": null,
               "RollingResistance": null,
-              "Scale": "50,50,50",
+              "Scale": "50,500,50",
               "Static": false,
               "Surface": null,
               "SurfaceVelocity": "0,0,0"
@@ -5552,7 +5552,7 @@
               "OnTriggerEnter": null,
               "OnTriggerExit": null,
               "RollingResistance": null,
-              "Scale": "50,50,50",
+              "Scale": "50,500,50",
               "Static": false,
               "Surface": null,
               "SurfaceVelocity": "0,0,0"
@@ -5624,7 +5624,7 @@
               "OnTriggerEnter": null,
               "OnTriggerExit": null,
               "RollingResistance": null,
-              "Scale": "50,50,50",
+              "Scale": "50,500,50",
               "Static": false,
               "Surface": null,
               "SurfaceVelocity": "0,0,0"
@@ -5657,7 +5657,7 @@
               "CreateAttachments": false,
               "LodOverride": null,
               "MaterialGroup": null,
-              "MaterialOverride": null,
+              "MaterialOverride": "sprites/tiles/materials/background2.vmat",
               "Materials": null,
               "Model": "models/dev/box.vmdl",
               "OnComponentDestroy": null,
@@ -5696,7 +5696,7 @@
               "OnTriggerEnter": null,
               "OnTriggerExit": null,
               "RollingResistance": null,
-              "Scale": "50,50,50",
+              "Scale": "50,500,50",
               "Static": false,
               "Surface": null,
               "SurfaceVelocity": "0,0,0"
@@ -5709,7 +5709,7 @@
           "__version": 2,
           "Flags": 0,
           "Name": "Cube (7)",
-          "Position": "2237.62256,0,-25.2493439",
+          "Position": "2237.62256,4.39721346,-25.2493439",
           "Rotation": "0,0,0,1",
           "Scale": "69.8747101,5,14.6938152",
           "Tags": "",
@@ -5729,7 +5729,7 @@
               "CreateAttachments": false,
               "LodOverride": null,
               "MaterialGroup": null,
-              "MaterialOverride": null,
+              "MaterialOverride": "sprites/tiles/materials/background2.vmat",
               "Materials": null,
               "Model": "models/dev/box.vmdl",
               "OnComponentDestroy": null,
@@ -5768,7 +5768,7 @@
               "OnTriggerEnter": null,
               "OnTriggerExit": null,
               "RollingResistance": null,
-              "Scale": "50,50,50",
+              "Scale": "50,500,50",
               "Static": false,
               "Surface": null,
               "SurfaceVelocity": "0,0,0"
@@ -5801,7 +5801,7 @@
               "CreateAttachments": false,
               "LodOverride": null,
               "MaterialGroup": null,
-              "MaterialOverride": null,
+              "MaterialOverride": "sprites/tiles/materials/background.vmat",
               "Materials": null,
               "Model": "models/dev/box.vmdl",
               "OnComponentDestroy": null,
@@ -5840,7 +5840,7 @@
               "OnTriggerEnter": null,
               "OnTriggerExit": null,
               "RollingResistance": null,
-              "Scale": "50,50,50",
+              "Scale": "50,500,50",
               "Static": false,
               "Surface": null,
               "SurfaceVelocity": "0,0,0"
@@ -5873,7 +5873,7 @@
               "CreateAttachments": false,
               "LodOverride": null,
               "MaterialGroup": null,
-              "MaterialOverride": null,
+              "MaterialOverride": "sprites/tiles/materials/background.vmat",
               "Materials": null,
               "Model": "models/dev/box.vmdl",
               "OnComponentDestroy": null,
@@ -5912,7 +5912,7 @@
               "OnTriggerEnter": null,
               "OnTriggerExit": null,
               "RollingResistance": null,
-              "Scale": "50,50,50",
+              "Scale": "50,500,50",
               "Static": false,
               "Surface": null,
               "SurfaceVelocity": "0,0,0"
@@ -5925,7 +5925,7 @@
           "__version": 2,
           "Flags": 0,
           "Name": "Cube (2)",
-          "Position": "-2406.22412,0,-25.2493439",
+          "Position": "-2406.22412,4.39721346,-25.2493439",
           "Rotation": "0,0,0,1",
           "Scale": "69.8747101,5,14.6938152",
           "Tags": "",
@@ -5945,7 +5945,7 @@
               "CreateAttachments": false,
               "LodOverride": null,
               "MaterialGroup": null,
-              "MaterialOverride": null,
+              "MaterialOverride": "sprites/tiles/materials/background2.vmat",
               "Materials": null,
               "Model": "models/dev/box.vmdl",
               "OnComponentDestroy": null,
@@ -5984,7 +5984,7 @@
               "OnTriggerEnter": null,
               "OnTriggerExit": null,
               "RollingResistance": null,
-              "Scale": "50,50,50",
+              "Scale": "50,500,50",
               "Static": false,
               "Surface": null,
               "SurfaceVelocity": "0,0,0"
@@ -6063,6 +6063,326 @@
         }
       ],
       "Children": []
+    },
+    {
+      "__guid": "bb155b80-1791-4bd1-b03b-6b548810747e",
+      "__version": 2,
+      "Flags": 0,
+      "Name": "ground",
+      "Position": "-207.947418,-233.56839,-127.761292",
+      "Rotation": "0,0,-0.707106769,0.707106769",
+      "Scale": "1,1,1",
+      "Tags": "",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkFlags": 0,
+      "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
+      "OwnerTransfer": 1,
+      "Components": [
+        {
+          "__type": "Sandbox.SpriteRenderer",
+          "__guid": "4dd5fd45-c421-4802-a098-477103f586b3",
+          "__enabled": true,
+          "Flags": 0,
+          "__version": 2,
+          "Additive": false,
+          "AlphaCutoff": 0,
+          "Billboard": "None",
+          "Color": "1,1,1,1",
+          "DepthFeather": 0,
+          "FlipHorizontal": false,
+          "FlipVertical": false,
+          "FogStrength": 1,
+          "IsSorted": false,
+          "Lighting": false,
+          "OnAnimationEnd": null,
+          "OnAnimationStart": null,
+          "OnBroadcastMessage": null,
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "Opaque": false,
+          "OverlayColor": "1,1,1,0",
+          "PlaybackSpeed": 1,
+          "RenderOptions": {
+            "GameLayer": true,
+            "OverlayLayer": false,
+            "BloomLayer": false,
+            "AfterUILayer": false
+          },
+          "Shadows": false,
+          "Size": "1000,1000",
+          "Sprite": {
+            "$compiler": "embed",
+            "$source": null,
+            "data": {
+              "Animations": [
+                {
+                  "Name": "Default",
+                  "FrameRate": 15,
+                  "Origin": "0.5,0.5",
+                  "LoopMode": "Loop",
+                  "Frames": [
+                    {
+                      "Texture": "forest sprite pack/sprites/ground.vtex",
+                      "BroadcastMessages": []
+                    }
+                  ]
+                }
+              ],
+              "__references": null
+            },
+            "compiled": null
+          },
+          "StartingAnimationName": "Default",
+          "TextureFilter": "Bilinear"
+        }
+      ],
+      "Children": []
+    },
+    {
+      "__guid": "aa2d8b5e-f207-4742-ad38-5e290560ec7c",
+      "__version": 2,
+      "Flags": 0,
+      "Name": "ground (1)",
+      "Position": "203.212067,-233.56842,-127.761292",
+      "Rotation": "0,0,-0.707106769,0.707106769",
+      "Scale": "1,1,1",
+      "Tags": "",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkFlags": 0,
+      "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
+      "OwnerTransfer": 1,
+      "Components": [
+        {
+          "__type": "Sandbox.SpriteRenderer",
+          "__guid": "d7b4bcaf-3fd4-43fc-bb9e-dd478f4b674d",
+          "__enabled": true,
+          "Flags": 0,
+          "__version": 2,
+          "Additive": false,
+          "AlphaCutoff": 0,
+          "Billboard": "None",
+          "Color": "1,1,1,1",
+          "DepthFeather": 0,
+          "FlipHorizontal": false,
+          "FlipVertical": false,
+          "FogStrength": 1,
+          "IsSorted": false,
+          "Lighting": false,
+          "OnAnimationEnd": null,
+          "OnAnimationStart": null,
+          "OnBroadcastMessage": null,
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "Opaque": false,
+          "OverlayColor": "1,1,1,0",
+          "PlaybackSpeed": 1,
+          "RenderOptions": {
+            "GameLayer": true,
+            "OverlayLayer": false,
+            "BloomLayer": false,
+            "AfterUILayer": false
+          },
+          "Shadows": false,
+          "Size": "1000,1000",
+          "Sprite": {
+            "$compiler": "embed",
+            "$source": null,
+            "data": {
+              "Animations": [
+                {
+                  "Name": "Default",
+                  "FrameRate": 15,
+                  "Origin": "0.5,0.5",
+                  "LoopMode": "Loop",
+                  "Frames": [
+                    {
+                      "Texture": "forest sprite pack/sprites/ground.vtex",
+                      "BroadcastMessages": []
+                    }
+                  ]
+                }
+              ],
+              "__references": null
+            },
+            "compiled": null
+          },
+          "StartingAnimationName": "Default",
+          "TextureFilter": "Bilinear"
+        }
+      ],
+      "Children": []
+    },
+    {
+      "__guid": "d9cdac14-d8d9-49c3-8f70-56647e9cac42",
+      "__version": 2,
+      "Flags": 0,
+      "Name": "ground (2)",
+      "Position": "812.037354,-233.568573,310.666382",
+      "Rotation": "0,0,-0.707106769,0.707106769",
+      "Scale": "-1,1,1",
+      "Tags": "",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkFlags": 0,
+      "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
+      "OwnerTransfer": 1,
+      "Components": [
+        {
+          "__type": "Sandbox.SpriteRenderer",
+          "__guid": "14b984e3-b67c-4241-804c-d630b2f1c1b4",
+          "__enabled": true,
+          "Flags": 0,
+          "__version": 2,
+          "Additive": false,
+          "AlphaCutoff": 0,
+          "Billboard": "None",
+          "Color": "1,1,1,1",
+          "DepthFeather": 0,
+          "FlipHorizontal": false,
+          "FlipVertical": false,
+          "FogStrength": 1,
+          "IsSorted": false,
+          "Lighting": false,
+          "OnAnimationEnd": null,
+          "OnAnimationStart": null,
+          "OnBroadcastMessage": null,
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "Opaque": false,
+          "OverlayColor": "1,1,1,0",
+          "PlaybackSpeed": 1,
+          "RenderOptions": {
+            "GameLayer": true,
+            "OverlayLayer": false,
+            "BloomLayer": false,
+            "AfterUILayer": false
+          },
+          "Shadows": false,
+          "Size": "1000,1000",
+          "Sprite": {
+            "$compiler": "embed",
+            "$source": null,
+            "data": {
+              "Animations": [
+                {
+                  "Name": "Default",
+                  "FrameRate": 15,
+                  "Origin": "0.5,0.5",
+                  "LoopMode": "Loop",
+                  "Frames": [
+                    {
+                      "Texture": "forest sprite pack/sprites/ground.vtex",
+                      "BroadcastMessages": []
+                    }
+                  ]
+                }
+              ],
+              "__references": null
+            },
+            "compiled": null
+          },
+          "StartingAnimationName": "Default",
+          "TextureFilter": "Bilinear"
+        }
+      ],
+      "Children": []
+    },
+    {
+      "__guid": "ad7d1cbf-706e-4356-a7a7-92f1300b610b",
+      "__version": 2,
+      "Flags": 0,
+      "Name": "ground (3)",
+      "Position": "-957.301636,-233.568604,310.666382",
+      "Rotation": "0,0,-0.707106769,0.707106769",
+      "Scale": "1,1,1",
+      "Tags": "",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkFlags": 0,
+      "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
+      "OwnerTransfer": 1,
+      "Components": [
+        {
+          "__type": "Sandbox.SpriteRenderer",
+          "__guid": "3b49944d-a34f-4cac-9f0d-e1350b6a5184",
+          "__enabled": true,
+          "Flags": 0,
+          "__version": 2,
+          "Additive": false,
+          "AlphaCutoff": 0,
+          "Billboard": "None",
+          "Color": "1,1,1,1",
+          "DepthFeather": 0,
+          "FlipHorizontal": false,
+          "FlipVertical": false,
+          "FogStrength": 1,
+          "IsSorted": false,
+          "Lighting": false,
+          "OnAnimationEnd": null,
+          "OnAnimationStart": null,
+          "OnBroadcastMessage": null,
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "Opaque": false,
+          "OverlayColor": "1,1,1,0",
+          "PlaybackSpeed": 1,
+          "RenderOptions": {
+            "GameLayer": true,
+            "OverlayLayer": false,
+            "BloomLayer": false,
+            "AfterUILayer": false
+          },
+          "Shadows": false,
+          "Size": "1000,1000",
+          "Sprite": {
+            "$compiler": "embed",
+            "$source": null,
+            "data": {
+              "Animations": [
+                {
+                  "Name": "Default",
+                  "FrameRate": 15,
+                  "Origin": "0.5,0.5",
+                  "LoopMode": "Loop",
+                  "Frames": [
+                    {
+                      "Texture": "forest sprite pack/sprites/ground.vtex",
+                      "BroadcastMessages": []
+                    }
+                  ]
+                }
+              ],
+              "__references": null
+            },
+            "compiled": null
+          },
+          "StartingAnimationName": "Default",
+          "TextureFilter": "Bilinear"
+        }
+      ],
+      "Children": []
     }
   ],
   "SceneProperties": {
@@ -6085,11 +6405,6 @@
       "CustomBounds": false
     },
     "GameObjectSystems": {
-      "Sandbox.Clutter.ClutterGridSystem": {
-        "Storage": {
-          "$blob": "fda48db7-a421-4841-8c82-6c97de4b8c36"
-        }
-      },
       "Sandbox.SelectionSetsSystem": {
         "Data": {
           "SelectionSets": []
@@ -6097,6 +6412,11 @@
       },
       "Sandbox.MovieMaker.MovieRecorderSystem": {
         "DisableClientRecording": false
+      },
+      "Sandbox.Clutter.ClutterGridSystem": {
+        "Storage": {
+          "$blob": "fda48db7-a421-4841-8c82-6c97de4b8c36"
+        }
       }
     }
   },

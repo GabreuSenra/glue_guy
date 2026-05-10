@@ -343,7 +343,7 @@
             "AlphaCutoff": 0.5,
             "Billboard": "None",
             "Color": "1,1,1,1",
-            "DepthFeather": 0,
+            "DepthFeather": 1,
             "FlipHorizontal": false,
             "FlipVertical": false,
             "FogStrength": 1,
@@ -382,6 +382,18 @@
                     "Frames": [
                       {
                         "Texture": "sprites/gloob - copia.vtex",
+                        "BroadcastMessages": []
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Hold",
+                    "FrameRate": 15,
+                    "Origin": "0.5,0.5",
+                    "LoopMode": "Loop",
+                    "Frames": [
+                      {
+                        "Texture": "sprites/gloob assustado - copia.png",
                         "BroadcastMessages": []
                       }
                     ]

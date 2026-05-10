@@ -8,7 +8,6 @@ public sealed class EyeController : Component
     [Property, Group("Configurações")] public float MouseReachDistance { get; set; } = 200f;
     [Property, Group("Configurações")] public float EyeFollowSpeed { get; set; } = 20f;
 
-    // Coloque os valores sempre positivos aqui. O código cuida da inversão matemática!
     [Property, Group("Limites (Lados)")] public float LimiteDireita { get; set; } = 5f;
     [Property, Group("Limites (Lados)")] public float LimiteEsquerda { get; set; } = 4f; 
 
